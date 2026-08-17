@@ -1,0 +1,105 @@
+CMM TTC FILE + RUN MAPPER v1.1
+============================================
+
+Generated: 17-Aug-2026 19:11:32
+
+CURRENT MODEL
+--------------------------------------------
+Model       : CMM_7IN_LATERAL_MODEL
+Tire        : 43075 16x7.5-10
+Compound    : R25B
+Rim width   : 7.0 in
+Test family : CORNERING
+
+RUN ROUTING
+--------------------------------------------
+
+RUN 1
+File            : B1965run1.mat
+Official type   : TRANSIENT
+Test family     : TRANSIENT
+Rim width       : 7.0 in
+Tire            : 43075 16x7.5-10
+Compound        : R25B
+Routing         : EXCLUDE_TEST_FAMILY
+Future branch   : TRANSIENT_ANALYSIS
+Model eligible  : 0
+Samples         : 58747
+Sample rate     : 100.000 Hz
+Duration        : 798.352 s
+
+RUN 2
+File            : B1965run2.mat
+Official type   : CORNERING_PART_1
+Test family     : CORNERING
+Rim width       : 7.0 in
+Tire            : 43075 16x7.5-10
+Compound        : R25B
+Routing         : INCLUDE_CURRENT_MODEL
+Future branch   : CURRENT_7IN_LATERAL_MODEL
+Model eligible  : 1
+Samples         : 59958
+Sample rate     : 100.000 Hz
+Duration        : 1733.555 s
+
+RUN 4
+File            : B1965run4.mat
+Official type   : CORNERING_PART_2
+Test family     : CORNERING
+Rim width       : 7.0 in
+Tire            : 43075 16x7.5-10
+Compound        : R25B
+Routing         : INCLUDE_CURRENT_MODEL
+Future branch   : CURRENT_7IN_LATERAL_MODEL
+Model eligible  : 1
+Samples         : 52490
+Sample rate     : 100.000 Hz
+Duration        : 1552.011 s
+
+RUN 5
+File            : B1965run5.mat
+Official type   : TRANSIENT
+Test family     : TRANSIENT
+Rim width       : 8.0 in
+Tire            : 43075 16x7.5-10
+Compound        : R25B
+Routing         : EXCLUDE_RIM_WIDTH
+Future branch   : TRANSIENT_ANALYSIS
+Model eligible  : 0
+Samples         : 58739
+Sample rate     : 100.000 Hz
+Duration        : 798.272 s
+
+RUN 6
+File            : B1965run6.mat
+Official type   : CORNERING_PART_1
+Test family     : CORNERING
+Rim width       : 8.0 in
+Tire            : 43075 16x7.5-10
+Compound        : R25B
+Routing         : EXCLUDE_RIM_WIDTH
+Future branch   : 8IN_LATERAL_MODEL
+Model eligible  : 0
+Samples         : 59945
+Sample rate     : 100.000 Hz
+Duration        : 1733.545 s
+
+RUN 7
+File            : B1965run7.mat
+Official type   : CORNERING_PART_2
+Test family     : CORNERING
+Rim width       : 8.0 in
+Tire            : 43075 16x7.5-10
+Compound        : R25B
+Routing         : EXCLUDE_RIM_WIDTH
+Future branch   : 8IN_LATERAL_MODEL
+Model eligible  : 0
+Samples         : 52462
+Sample rate     : 100.000 Hz
+Duration        : 1552.001 s
+
+
+CURRENT MODEL INPUT SET
+--------------------------------------------
+Run 2 : B1965run2.mat
+Run 4 : B1965run4.mat

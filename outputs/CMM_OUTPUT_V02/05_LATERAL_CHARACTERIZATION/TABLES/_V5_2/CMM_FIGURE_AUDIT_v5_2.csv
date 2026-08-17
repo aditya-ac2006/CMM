@@ -1,0 +1,16 @@
+FigureID,File,Type,Pass,Detail
+REFERENCE_FY_SA,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\01_FY_SA_REFERENCE\Reference_FY_vs_SA.png,curve,1,2 sweep curves plotted
+REPRESENTATIVE_FY_SA,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\02_FY_SA_REPRESENTATIVE\Representative_FY_vs_SA.png,curve,1,6 representative curves plotted
+Peak_FY_vs_FZ.png,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\03_LOAD_SENSITIVITY\Peak_FY_vs_FZ.png,trend,1,Ordered engineering trend
+MuY_vs_FZ.png,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\04_FRICTION_LOAD_SENSITIVITY\MuY_vs_FZ.png,trend,1,Ordered engineering trend
+Cornering_Stiffness_vs_FZ.png,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\05_CORNERING_STIFFNESS\Cornering_Stiffness_vs_FZ.png,trend,1,Engineering-positive C_alpha
+PEAK_SLIP_ANGLE,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\06_PEAK_SLIP_ANGLE\Peak_Slip_Angle_Status_vs_FZ.png,trend,1,20 resolved / 60 boundary-limited
+PRESSURE,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\07_PRESSURE_SENSITIVITY\Pressure_Sensitivity_PeakFY.png,trend,1,4 valid state curves
+CAMBER,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\08_CAMBER_SENSITIVITY\Camber_Sensitivity_PeakFY.png,trend,1,3 valid state curves
+SPEED_VALIDATION,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\09_SPEED_SENSITIVITY\Speed_Validation_FY_vs_SA.png,curve,1,11 curves plotted; validation remains isolated
+REPEATABILITY,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\10_REPEATABILITY\Condition_035_Repeatability.png,curve,1,Condition 35: 4 repeat curves
+SYMMETRY,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\11_SYMMETRY\Sweep_Symmetry_vs_FZ.png,trend,1,Ordered symmetry trend
+STIFFNESS_WINDOW_QC,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\12_STIFFNESS_QC\Cornering_Stiffness_Window_Sensitivity.png,trend,1,6 representative sweeps
+PEAK_QC,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\13_PEAK_QC\Peak_MuY_QC_vs_FZ.png,trend,1,3 QC classes represented
+OUTLIER_QC,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\14_OUTLIER_QC\Physics_Outlier_Audit.png,trend,1,80 finite sweep points
+FIGURE_AUDIT,C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\05_LATERAL_CHARACTERIZATION\FIGURES\_V5_2\15_FIGURE_AUDIT\Figure_Generation_Audit.png,bar,1,14 PASS / 0 FAIL

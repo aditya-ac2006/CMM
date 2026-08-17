@@ -1,0 +1,24 @@
+CMM TTC LATERAL TIRE CHARACTERIZER v5.2
+============================================================
+
+BASELINE : v5.1
+PARALLEL : PASS (8 workers)
+
+PRIMARY SAMPLES     : 42084
+PRIMARY SWEEPS      : 80
+CONDITIONS          : 60
+VALIDATION SWEEPS   : 10
+
+REFERENCE CONDITION : 34
+P                   : 12.089 psi
+IA                  : -0.003 deg
+V                   : 24.990 mph
+FZ                  : 871.529 N
+
+MAX PEAK |FY|       : 2778.440 N
+MAX PEAK MUY        : 3.69163
+MEDIAN C_ALPHA      : 441.661 N/deg
+MEDIAN RESOLVED SA  : 8.352 deg
+MEAN SYMMETRY       : 1.03938
+FIGURES PASS        : 15 / 15
+FINAL INTEGRITY     : PASS

@@ -1,0 +1,2 @@
+Pressure_psi,Camber_deg,TargetFz_N,FzHalfWidth_N,N_samples,PointwiseMu_Median,PointwiseMu_P10,PointwiseMu_P90,ObservedFy_N,ObservedMu,ObservedSA_deg,Calpha_N_per_deg,Calpha_R2,PeakStatus,PeakInterpretation
+12.1,0,871.5,75,4819,2.13209123385545,0.786351235206054,2.40832950438241,2062.11,2.30205583553316,12.2,473.124056185369,0.939408424612283,BOUNDARY-LIMITED,NOT A TRUE PEAK; OBSERVED VALUE AT SA WINDOW LIMIT

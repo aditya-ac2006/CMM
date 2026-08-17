@@ -1,0 +1,44 @@
+CMM TTC LATERAL MODEL DATABASE BUILDER v4.0
+============================================================
+
+MODEL
+------------------------------------------------------------
+Model       : CMM_7IN_LATERAL_MODEL
+Tire        : 43075 16x7.5-10
+Compound    : R25B
+Rim width   : 7.0 in
+
+PRIMARY MODEL DATABASE
+------------------------------------------------------------
+Samples     : 42084
+Sweeps      : 80
+Conditions  : 60
+
+VALIDATION DATABASE
+------------------------------------------------------------
+Samples     : 5261
+Sweeps      : 10
+
+MEASURED PRIMARY RANGE
+------------------------------------------------------------
+SA : -10.5000 to 10.4990 deg
+FY : -2778.4400 to 2751.6800 N
+FZ : 158.3500 to 1179.4000 N
+IA : -0.0420 to 4.0270 deg
+P  : 53.8800 to 99.1500 kPa
+V  : 40.0600 to 40.3800 kph
+
+DATABASE INTEGRITY
+------------------------------------------------------------
+PRIMARY_DATABASE_NONEMPTY              : PASS | 42084 samples
+PRIMARY_CHANNELS_FINITE                : PASS | PASS
+POSITIVE_LOADED_FZ                     : PASS | FZ 158.3 → 1179.4 N
+RUN_ROUTING                            : PASS | Runs 2 + 4 only
+PRIMARY_VALIDATION_ISOLATION           : PASS | PASS
+UNIQUE_PRIMARY_SAMPLE_IDS              : PASS | PASS
+CONDITION_ID_ASSIGNMENT                : PASS | 60 conditions
+SWEEP_ID_ASSIGNMENT                    : PASS | 80 sweeps
+CANONICAL_BUILD_SAMPLE_PRESERVATION    : PASS | 42084 → 42084 samples
+EXPECTED_PRIMARY_SWEEP_COUNT           : PASS | 80 / 80
+
+FINAL STATUS: PASS
