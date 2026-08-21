@@ -1,0 +1,49 @@
+CMM MF LATERAL GLOBAL v2.0 AUDIT
+================================
+Input: C:\Users\adity\CMM_GIT\outputs\_PRE_MF_MATRIX_v1_3\TTC_CONDITION_ASSIGNED_DATABASE.csv
+Contract: 7-inch rim, Runs 2+4
+Development: Run 2
+Holdout validation: Run 4
+FY multiplier: -1
+Reference: Fz0=871.500 N, P0=12.100 psi, IA0=0.000 deg
+
+Development R2: 0.99827029
+Development RMSE: 61.445533 N
+Development MAE: 47.122613 N
+Holdout Run 4 R2: 0.99503520
+Holdout Run 4 RMSE: 102.671602 N
+Holdout Run 4 MAE: 79.057657 N
+Final Global R2: 0.99731932
+Final Global RMSE: 75.985690 N
+Final Global MAE: 56.184935 N
+Reference R2: 0.99595689
+Reference RMSE: 108.646861 N
+Reference MAE: 84.532555 N
+Reference C-alpha: 30998.665140 N/deg
+Reference measured peak mu: 2.60702238
+Reference MF peak mu: 2.51244225
+
+Parameter list:
+PCY1 = 1.77269277844
+PDY1 = 2.44468488671
+PDY2 = -0.536222846545
+PDY3 = 11.8640254759
+PEY1 = 0.764735051815
+PEY2 = -1
+PKY1 = 38.0161294461
+PKY2 = 1.411571736
+PKY3 = 20
+PHY1 = -0.00175741139331
+PHY2 = -0.00385574592467
+PHY3 = -0.119245971018
+PVY1 = 0.0680669503495
+PVY2 = 0.0501696793565
+PVY3 = 0.193546586522
+PVY4 = -0.683947518204
+P_MU_1 = -0.0198458644467
+P_MU_2 = -0.000869607499244
+P_K_1 = -0.0174292781285
+
+Fixed: PEY3=0, PEY4=0
+Pressure terms are CMM wrappers and are not standard MF-Tyre .tir coefficients.
+.tir generation: BLOCKED.

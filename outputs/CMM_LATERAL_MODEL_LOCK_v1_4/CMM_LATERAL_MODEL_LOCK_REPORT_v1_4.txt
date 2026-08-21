@@ -1,0 +1,87 @@
+CMM LATERAL MODEL LOCK v1.4
+============================================================
+
+STATUS                 : PASS
+MODEL VERSION          : CMM MF LATERAL GLOBAL v2.0
+MODEL FILE             : C:\Users\adity\CMM_GIT\outputs\_MF_LATERAL_GLOBAL_v2_0\CMM_GLOBAL_MF_LATERAL_v2_0.mat
+STAGE-4 CONTRACT       : C:\Users\adity\CMM_GIT\outputs\CMM_OUTPUT_V02\04_LATERAL_MODEL_DATABASE\CMM_LATERAL_MODEL_DATABASE_CONTRACT_v4_0.mat
+PRIMARY RUNS           : 2 4
+PRIMARY SWEEPS         : 80
+PRIMARY CONDITIONS     : 60
+PRIMARY SAMPLES        : 42084
+
+REFERENCE
+Fz0                    : 871.500 N
+P0                     : 12.100 psi
+IA0                    : 0.000 deg
+
+MODEL VALIDATION
+Canonical R2           : 0.99733594
+Canonical RMSE         : 74.008753 N
+Canonical MAE          : 54.874997 N
+Audit R2               : 0.99715576
+Audit RMSE             : 79.283892 N
+Audit MAE              : 58.739865 N
+Reference R2           : 0.99596632
+Reference RMSE         : 108.034410 N
+
+REFERENCE PEAKS
+Measured peak mu       : 2.56441455
+Frozen MF peak mu      : 2.51244225
+Measured peak SA       : 9.864000 deg
+Frozen MF peak SA      : 12.000000 deg
+
+PARAMETERS
+PCY1 = 1.77269277844169
+PDY1 = 2.44468488671249
+PDY2 = -0.536222846545396
+PDY3 = 11.8640254759311
+PEY1 = 0.76473505181457
+PEY2 = -0.999999999999962
+PKY1 = 38.0161294461456
+PKY2 = 1.41157173599834
+PKY3 = 19.9999999999999
+PHY1 = -0.00175741139330899
+PHY2 = -0.00385574592467018
+PHY3 = -0.119245971018025
+PVY1 = 0.0680669503495176
+PVY2 = 0.0501696793564739
+PVY3 = 0.193546586521998
+PVY4 = -0.683947518203744
+P_MU_1 = -0.0198458644467115
+P_MU_2 = -0.000869607499243776
+P_K_1 = -0.0174292781284872
+
+FIXED COEFFICIENTS
+PEY3 = 0
+PEY4 = 0
+
+SCOPE
+Pure lateral steady-state MF model only.
+No longitudinal, braking, or combined-slip model is included.
+Runs 5-7 / 8-inch data are not part of this lock.
+Speed-validation data remains isolated from primary fitting data.
+No refit was performed by this lock script.
+
+INTEGRITY CHECKS
+MODEL_19_PARAMETER_CONTRACT        : PASS | 19 parameters
+PARAMETER_ORDER                    : PASS | CMM 19-parameter order verified
+PRIMARY_RUN_ROUTING                : PASS | Primary database is Runs 2 + 4
+PRIMARY_SWEEP_COUNT                : PASS | 80 / 80 sweeps
+FINITE_CANONICAL_PREDICTIONS       : PASS | 42084 predictions finite
+FINITE_AUDIT_PREDICTIONS           : PASS | 112448 predictions finite
+GLOBAL_R2_GATE                     : PASS | R2 = 0.997156
+REFERENCE_R2_GATE                  : PASS | R2 = 0.995966
+REFERENCE_RMSE_GATE                : PASS | RMSE = 108.034 N
+CANONICAL_CONVENTION_DIAGNOSTIC    : PASS | Selected FY- / SA+ | R2 = 0.997336
+CANONICAL_CONVENTION_AUDIT_COMPATIBILITY : PASS | Diagnostic best FY- / SA+; audit convention is FY- / SA+
+CANONICAL_CONVENTION_FROZEN        : PASS | Frozen convention FY- / SA+ | FY x -1 | SA x 1
+CANONICAL_SELECTED_R2_GATE         : PASS | Selected canonical R2 = 0.997336
+CANONICAL_RAW_R2_RECORDED          : PASS | Raw canonical R2 = -2.968915 (diagnostic only)
+REFERENCE_CONDITION_FZ             : PASS | Reference Fz = 871.53 N
+REFERENCE_CONDITION_PRESSURE       : PASS | Reference P = 12.089 psi
+REFERENCE_CONDITION_CAMBER         : PASS | Reference IA = -0.003 deg
+PEY3_PEY4_FIXED                    : PASS | PEY3 = 0, PEY4 = 0
+NO_REFIT_PERFORMED                 : PASS | Frozen coefficients evaluated only; no optimizer called
+NO_LONGITUDINAL_MODEL              : PASS | Pure lateral only
+FIGURES_WRITTEN                    : PASS | 10 engineering figures
