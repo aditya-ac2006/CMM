@@ -1,2 +1,0 @@
-Pressure_psi,Camber_deg,TargetFz_N,MaxMeasuredSA_deg,ObservedFyAtMaxSA_N,ObservedMuAtMaxSA,DetectedFy_N,DetectedMu,DetectedSA_deg,Status,Interpretation
-12.1,0,871.5,12.296,2068.93,2.37110103701763,2062.11,2.30205583553316,12.2,BOUNDARY-LIMITED,NOT A TRUE PEAK; OBSERVED VALUE AT SA WINDOW LIMIT
